@@ -1,1 +1,5 @@
-
+SyntaxError: invalid syntax        
+ File "/scratch/jy3074/run_hyperparameter_search.py", line 66
+  results = trainer.hyperparameter_search(hp_space = Lambda__: {'learning_rate':tune.uniform(1e-5, 5e-5)},
+                                                             ^                                                             
+SyntaxError: invalid syntax  
